@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>My Garden</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header><h1>My Fabulous Garden</h1></header>
+    <main>
+<div class="formAria">
+<form id="form">
+<fieldset>
+<legend>New Flower</legend>
+
+<label for="flower_name">Name</label>
+<input type="text" name="" id="flower_name" required>
+<label for="flower_img">Image</label>
+<select name="" id="flower_img" required>
+<option value="">---</option>
+<option value="alstroemerias">Alstroemerias</option>
+<option value="gardenias">Gardenias</option>
+<option value="orchids">Orchids</option>
+<option value="roses">Roses</option>
+<option value="sunflowers">Sunflowers</option>
+<option value="tulips">Tulips</option>
+<option value="peonies">Peonies</option>
+
+</select>
+<label for="season">Season</label>
+<input type="text" name="" id="season">
+
+<input type="submit" value="Save" class="saveBtn">
+<button type="button" onclick="clearTable()" class="clearBtn">Clear LS</button>
+
+
+
+</fieldset>
+
+
+</form>
+
+
+</div>
+<div class="tableAria">
+    <table id="flower_table">
+
+    </table>
+    
+</div>
+
+
+    </main>
+    <footer>
+        <p>All Rights Reserved 2021 &copy; ASAC </p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>

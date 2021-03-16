@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-rows: 100px minmax(500px ,1fr ) 50px;
+    row-gap: 30px;
+}
+
+header{
+    text-align: center;
+    background-color:  #3f8f8d;
+    height: 100px;
+    font-size: 34px;
+    font-weight: bolder;
+    color: white;
+}
+footer{
+    width: 100%;
+    background-color:  #5dc0a6;
+    text-align: center;
+    margin: auto;
+    height: 60px;
+    color: white;
+    padding-top: 23px;
+    font-size: 13px;
+}
+
+h1{
+    padding-top: 30px;
+}
+main{
+    width: 60%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+}
+fieldset{
+    border-style: dashed;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+form{
+    width: 80%;
+    margin: auto;
+    
+}
+
+label,input {
+    display: inherit;
+    width: 100%;
+
+ 
+}
+
+input,select,button{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.saveBtn{
+    background-color: #609c4d ;
+}
+
+.clearBtn{
+    background-color:#ac0d0d ;
+  
+}
+
+.saveBtn,.clearBtn{
+    width: 35%;
+    display:inline-block;
+    cursor: pointer;
+    padding: 5px;
+ 
+    color: white;
+    border: none;
+}
+label{
+    font-weight: bold;
+}
+
+
+
+table tr:nth-child(odd){
+    background-color: #f6b8d1;
+}
+
+table tr:nth-child(even){
+    background-color: #ffd3de;
+}
+
+td , th , td span {
+  
+    padding: 3px 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+th{
+    background-color: #ffc0d0;
+  font-weight: bold;
+    padding: 10px 35px;
+    
+  
+}
+tr {
+    border-style: solid;
+    border-width: 3px ;
+    border-color: ivory;
+}
+span{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+img{
+    width: 80px;
+}
